@@ -1,0 +1,41 @@
+{
+    "text": [
+        "const nota1 = parseFloat({{GAP}}('Digite a primeira nota:'));",
+        "const nota2 = parseFloat({{GAP}}('Digite a segunda nota:'));",
+        "{{GAP}} media = (nota1 + nota2) / 2.0;",
+        "{{GAP}}(media);"
+    ],
+    "alternatives": [
+        {
+            "value": "prompt",
+            "description": ""
+        },
+        {
+            "value": "console.log",
+            "description": ""
+        },
+        {
+            "value": "alert",
+            "description": ""
+        },
+        {
+            "value": "const",
+            "description": ""
+        }
+    ],
+    "hints": [
+        {
+            "field": 3,
+            "expected": "alert",
+            "text": "prefira usar console.log no lugar do alert"
+        }
+    ],
+    "acceptedAnswers": [
+        [
+            "prompt",
+            "prompt",
+            "const",
+            "console.log"
+        ]
+    ]
+}

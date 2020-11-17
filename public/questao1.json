@@ -1,0 +1,61 @@
+{
+    "text": [
+        "{{GAP}} nota1 = parseFloat(prompt('Digite a primeira nota:'));",
+        "{{GAP}} nota2 = parseFloat(prompt('Digite a segunda nota:'));",
+        "{{GAP}} media = (nota1 + nota2) / 2.0;",
+        "console.log(media);"
+    ],
+    "alternatives": [
+        {
+            "value": "var",
+            "description": ""
+        },
+        {
+            "value": "let",
+            "description": ""
+        },
+        {
+            "value": "const",
+            "description": ""
+        }
+    ],
+    "hints": [
+        {
+            "field": 0,
+            "expected": "var",
+            "text": "var é pouco usada hoje em dia no JS prefira const ou let"
+        },
+        {
+            "field": 1,
+            "expected": "var",
+            "text": "var é pouco usada hoje em dia no JS prefira const ou let"
+        },
+        {
+            "field": 2,
+            "expected": "var",
+            "text": "var é pouco usada hoje em dia no JS prefira const ou let"
+        },
+        {
+            "field": 0,
+            "expected": "let",
+            "text": "nesse caso é preferível o uso de const"
+        },
+        {
+            "field": 1,
+            "expected": "let",
+            "text": "nesse caso é preferível o uso de const"
+        },
+        {
+            "field": 2,
+            "expected": "let",
+            "text": "nesse caso é preferível o uso de const"
+        }
+    ],
+    "acceptedAnswers": [
+        [
+            "const",
+            "const",
+            "const"
+        ]
+    ]
+}

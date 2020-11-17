@@ -1,0 +1,63 @@
+{
+    "text": [
+        "const nota1 = parseFloat(prompt('Digite a primeira nota:'));",
+        "const nota2 = parseFloat(prompt('Digite a segunda nota:'));",
+        "const media = ({{GAP}} + {{GAP}}) / {{GAP}};",
+        "console.log({{GAP}});"
+    ],
+    "alternatives": [
+        {
+            "value": "nota2",
+            "description": ""
+        },
+        {
+            "value": "nota1",
+            "description": ""
+        },
+        {
+            "value": "media",
+            "description": ""
+        },
+        {
+            "value": "2.0",
+            "description": ""
+        },
+        {
+            "value": "2",
+            "description": ""
+        }
+    ],
+    "hints": [
+        {
+            "field": 2,
+            "expected": "2",
+            "text": "prefira usar valor constante 2 como float (2.0)"
+        }
+    ],
+    "acceptedAnswers": [
+        [
+            "nota1",
+            "nota2",
+            "2.0",
+            "media"
+        ],
+        [
+            "nota2",
+            "nota1",
+            "2.0",
+            "media"
+        ],
+        [
+            "nota2",
+            "nota1",
+            "2",
+            "media"
+        ],
+        [
+            "nota1",
+            "nota2",
+            "2",
+            "media"
+        ]
+    ]
+}

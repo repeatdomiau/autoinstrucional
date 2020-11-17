@@ -1,0 +1,47 @@
+{
+    "text": [
+        "const nota1 = {{GAP}}({{GAP}}('Digite a primeira nota:'));",
+        "const nota2 = {{GAP}}({{GAP}}('Digite a segunda nota:'));",
+        "const media = (nota1 + nota2) / 2.0;",
+        "{{GAP}}(media);"
+    ],
+    "alternatives": [
+        {
+            "value": "parseInt",
+            "description": "Transforma uma string contendo um número inteiro em Number"
+        },
+        {
+            "value": "console.log",
+            "description": "Exibe valores na tela do console"
+        },
+        {
+            "value": "parseFloat",
+            "description": "Transforma uma string contendo um número decimal em Number"
+        },
+        {
+            "value": "prompt",
+            "description": "Solicita uma informação ao usuário"
+        }
+    ],
+    "hints": [
+        {
+            "field": 0,
+            "expected": "parseInt",
+            "text": "observe que é uma nota, portanto um valor decimal, parseFloat é o correto nesse caso"
+        },
+        {
+            "field": 1,
+            "expected": "parseInt",
+            "text": "observe que é uma nota, portanto um valor decimal, parseFloat é o correto nesse caso"
+        }
+    ],
+    "acceptedAnswers": [
+        [
+            "parseFloat",
+            "prompt",
+            "parseFloat",
+            "prompt",
+            "console.log"
+        ]
+    ]
+}
